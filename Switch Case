@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+	printf("Pick an item : \n1. Plain Dosa \n2. Masala Dosa \n3. Onion Dosa \n4. Rava Dosa \n5. Paper Dosa");
+	int choice=0;
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:
+			printf("You Picked Plain Dosa.");
+			break;
+		case 2:
+			printf("You Picked Masala Dosa.");
+			break;
+		case 3:
+			printf("You Picked Onion Dosa.");
+			break;
+		case 4:
+			printf("You Picked Rava Dosa.");
+			break;		
+		case 5:
+			printf("You Picked Paper Dosa.");
+			break;
+		default: printf("Invalid choice");		
+	}
+}
